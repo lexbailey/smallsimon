@@ -1,6 +1,6 @@
 from time import*
 s=''
-def e(u):print(u or"\x1Bc");sleep(1)
+def e(u):print(u or"\f");sleep(1)
 while 1:
  s+='rgby'[int(time())%4];e(0)
  for c in s:e(e(c))
